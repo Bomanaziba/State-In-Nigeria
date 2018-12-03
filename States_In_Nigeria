@@ -1,0 +1,46 @@
+CREATE TABLE `State` (
+`StateId` int(11) NOT NULL auto_increment,
+`Code` varchar(2) NOT NULL default '',
+`Name` varchar(100) NOT NULL default '',
+PRIMARY KEY (`StateId`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+-- 
+-- Dumping data for table `State`
+-- 
+INSERT INTO `State` VALUES (null, 'AB', 'Abia');
+INSERT INTO `State` VALUES (null, 'AD', 'Adamawa');
+INSERT INTO `State` VALUES (null, 'AK', 'Akwa Ibom');
+INSERT INTO `State` VALUES (null, 'AN', 'Anambra');
+INSERT INTO `State` VALUES (null, 'BA', 'Bauchi');
+INSERT INTO `State` VALUES (null, 'BY', 'Bayelsa');
+INSERT INTO `State` VALUES (null, 'BE', 'Benue');
+INSERT INTO `State` VALUES (null, 'BO', 'Borno');
+INSERT INTO `State` VALUES (null, 'CR', 'Cross River');
+INSERT INTO `State` VALUES (null, 'DE', 'Delta');
+INSERT INTO `State` VALUES (null, 'EB', 'Ebonyi');
+INSERT INTO `State` VALUES (null, 'ED', 'Edo');
+INSERT INTO `State` VALUES (null, 'EK', 'Ekiti');
+INSERT INTO `State` VALUES (null, 'EN', 'Enugu	');
+INSERT INTO `State` VALUES (null, 'FC', 'Federal Capital Territory');
+INSERT INTO `State` VALUES (null, 'GO', 'Gombe');
+INSERT INTO `State` VALUES (null, 'IM', 'Imo');
+INSERT INTO `State` VALUES (null, 'JI', 'Jigawa');
+INSERT INTO `State` VALUES (null, 'KD', 'Kaduna');
+INSERT INTO `State` VALUES (null, 'KN', 'Kano');
+INSERT INTO `State` VALUES (null, 'KT', 'Katsina');
+INSERT INTO `State` VALUES (null, 'KE', 'Kebbi');
+INSERT INTO `State` VALUES (null, 'KO', 'Kogi');
+INSERT INTO `State` VALUES (null, 'KW', 'Kwara');
+INSERT INTO `State` VALUES (null, 'LA', 'Lagos');
+INSERT INTO `State` VALUES (null, 'NA', 'Nasarawa');
+INSERT INTO `State` VALUES (null, 'NI', 'Niger');
+INSERT INTO `State` VALUES (null, 'OG', 'Ogun');
+INSERT INTO `State` VALUES (null, 'ON', 'Ondo');
+INSERT INTO `State` VALUES (null, 'OS', 'Osun');
+INSERT INTO `State` VALUES (null, 'OY', 'Oyo');
+INSERT INTO `State` VALUES (null, 'PL', 'Plateau');
+INSERT INTO `State` VALUES (null, 'RI', 'Rivers');
+INSERT INTO `State` VALUES (null, 'SO', 'Sokoto');
+INSERT INTO `State` VALUES (null, 'TA', 'Taraba');
+INSERT INTO `State` VALUES (null, 'YO', 'Yobe');
+INSERT INTO `State` VALUES (null, 'ZA', 'Zamfara');
